@@ -1,0 +1,75 @@
+.hero-container { background-color: #fff; }
+
+.hero {
+    position: relative;
+    overflow: hidden;
+    background: url(https://timedotcom.files.wordpress.com/2014/08/woman-walking.jpg?quality=85&w=1100) no-repeat scroll 50% 50%;
+    background-size: 100% auto;
+    max-height: 420px;
+}
+
+.hero .dummy {
+    padding-top: 57.5%;
+}
+body {
+  background-color: #f0f8ff;
+}
+
+.piechart {
+   width: 30%;
+   float: right;
+   margin: 0 0 10px 10px;
+ }
+
+ h1 {
+   position: absolute;
+   top: 322px;
+   left: 5;
+   width: 100%;
+   color: #0e2f44;
+   font-size: 40px;
+   font-family: 'Merriweather', serif;
+ }
+
+ p {
+   font-family: 'Lora', serif;
+   font-size: 17px;
+ }
+
+ .social {
+   top: 200px;
+ }
+
+blockquote {
+  background: #f0f8ff;
+  border-left: 10px solid black;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  font-size: 20px;
+}
+blockquote:before {
+  color: black;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+
+#sidewalk {
+  width: 400px;
+  height: 300px;
+}
+
+#mylist {
+  font-family: 'Lora', serif;
+  font-size: 17px;
+}
+
+#link {
+  color: black;
+}
